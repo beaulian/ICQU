@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <title>易班助手</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no", minimum-scale=1.0, maximum-scale=1.0/> 
+<meta name="keywords" content="重庆大学易班,易班网,易班学生互动社区,上海大学生在线,互动社区,上海大学生,SNS">
+                    <meta name="description" content="重庆大学易班是广大学生的实名互动平台，提供了SNS、博客、微博等Web2.0应用。根据师生的需求，易班研发了话题、日程表等基于班级的特色应用，集成了大量的优质教育资源。">
+                   
+    <!-- Bootstrap core CSS -->
+    <link href="/static/common/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/common/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/static/common/bootstrap.min.js"></script>
+    <link href="/static/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/common/jquery.cookie.js"></script>
+    <link href="/static/yiban.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="body">
+<div id="divform" style="display:block;">
+    <div class="wrapper">
+        <div class="container">
+            <h2>成绩查询</h2>
+            <form class="am-form am-form-horizontal" id="gradeform">
+                 <select id="xueqi" name="xueqi" class="form-select required">
+                      <option value="">请选择学年学期</option>
+                      <option value="2014-0">2014-2015学年第一学期</option>
+                      <option value="2014-1">2014-2015学年第二学期</option>
+                      <option value="2015-0">2015-2016学年第一学期</option>
+                </select>
+                <input type="text" id="SID" name="SID" placeholder="请输入学号">
+                <input type="password" id="password" name="password" placeholder="请输入密码">
+                <button id="submit" class="am">登录</button>
+            </form>
+            <img src="/static/search.png" alt="search.png"/>
+            <p>© 重庆大学易班工作站技术部</p>   
+        </div>
+    </div>    
+</div>
+<div id="content_menu" style="display:none;margin-top:20px;" class="am-scrollable-horizontal">
+    <h3 class="tishi" style="text-align:center;color:red;"></h3>
+    <table id="day" class="table table-bordered">
+        <thead>
+            <tr align="center" class="info">
+                <th class="order section" width="20%">序号</th>
+                <th class="day subject" width="40%">课程名称</th>
+                <th class="day address" width="20%">学分</th>
+                <th class="day teacher" width="20%">成绩</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<script type="text/javascript" src="/static/grade/post.js"></script>
+<!-- <script type="text/javascript" src="/static/grade/setgrade.js"></script> -->
+</body>
+</html>

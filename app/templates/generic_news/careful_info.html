@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript" src="/static/common/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/static/common/bootstrap.min.css">
+    <script type="text/javascript" src="/static/common/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/cqunews/news.css">
+	<title>重大新闻</title>
+</head>
+<body>
+	<div class="panel-body main">
+		<h3>{{ news[order]['title'] }}</h3>
+		<div class="info">
+			<p>作者：{{ news[order]['author'] }}</p>
+			<p>责任编辑：{{ news[order]['publisher'] }}</p>
+			<p>时间：{{ news[order]['time_pub'] }}</p>
+			<p>分类：{{ news[order]['classf'] }}</p>
+			<p>来源：<a href="{{ news[order]['url'] }}">重大新闻网</a></p>
+		</div>
+		<div class="mainbody">{{ news[order]['body'] }}</div>	
+	</div>
+	 <script type="text/javascript" src="/static/cqunews/info.js"></script>
+	 <script type="text/javascript">
+	 	var img_array = document.getElementsByTagName("img");
+	 	for (var i=0; i<img_array.length; i++){
+	 		var src = img_array[i].src;
+	 		img_array[i].src = "http://news.cqu.edu.cn" + src.split("138")[1]
+	 		img_array[i].style.width = "100%"
+	 	}
+	 </script>
+</body>
+</html>

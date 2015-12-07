@@ -1,0 +1,198 @@
+﻿﻿﻿<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <title>易班助手</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="重庆大学易班,易班网,易班学生互动社区,上海大学生在线,互动社区,上海大学生,SNS">
+                    <meta name="description" content="重庆大学易班是广大学生的实名互动平台，提供了SNS、博客、微博等Web2.0应用。根据师生的需求，易班研发了话题、日程表等基于班级的特色应用，集成了大量的优质教育资源。">
+	<!-- <link rel="stylesheet" href="/static/repair/repair.css"/> -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="/static/common/bootstrap.min.css">
+    <script type="text/javascript" src="/static/common/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/static/common/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/common/jquery.cookie.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/yiban.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</style>
+</head>
+<body>
+
+<div id="sform" style="display:block;">
+	<div class="wrapper">
+        <div class="container">
+            <h2>网络报修登录</h2>
+            <form class="am-form am-form-horizontal" id="network-form">
+                <input type="text" id="SID" name="SID" placeholder="请输入学号">
+                <input type="password" id="password" name="password" placeholder="请输入密码">
+                <button id="submit" class="am">登录</button>
+            </form>
+            <img src="/static/search.png" alt="search.png"/>
+            <p>© 重庆大学易班工作站技术部</p>   
+        </div>
+    </div>    
+</div>
+<div id="whole" style="display:none;">
+<form class="am-form am-form-horizontal" id="network-form">
+  	<fieldset>
+	    <legend style="color:red;">个人基本信息</legend>
+
+	    <div class="am-form-group">
+		    <label for="xuehao">学号 <span class="form-required" title="此项必填。">*</span></label>
+	        <input disabled="disabled" type="text" id="xuehao" name="xuehao" value="" size="20" maxlength="20" class="form-text required" />
+	    </div>
+	    <div class="am-form-group">
+	        <label for="name">姓名 <span class="form-required" title="此项必填。">*</span></label>
+            <input disabled="disabled" type="text" id="name" name="name" value="" size="20" maxlength="20" class="form-text required" />
+	    </div>
+	    <div class="am-form-group">
+	    	<label for="dianhua">电话 <span class="form-required" title="此项必填。">*</span></label>
+            <input type="text" id="dianhua" name="dianhua" value="" size="23" maxlength="23" class="form-text required" />
+	    </div>
+	    <div class="am-form-group">
+	        <label for="xueyuan">学院 <span class="form-required" title="此项必填。">*</span></label>
+	        <select id="xueyuan" name="xueyuan" class="form-select required">
+				  <option value="">--请选择--</option>
+				  <option value="30">虎溪校区管委会</option>
+				  <option value="31">管委会综合办</option>
+				  <option value="20">管委会学工办</option>
+				  <option value="33">管委会信息办</option>
+				  <option value="32">管委会后勤办</option>
+				  <option value="69">虎溪</option>
+				  <option value="29">艺术学院</option>
+				  <option value="67">研究生院</option>
+				  <option value="15">经济与工商管理学院</option>
+				  <option value="8">网络中心</option>
+				  <option value="18">自动化学院</option>
+				  <option value="71">行政机构</option>
+				  <option value="4">计算机学院</option>
+				  <option value="36">资源及环境科学学院</option>
+				  <option value="5">软件学院</option>
+				  <option value="23">通信工程学院</option>
+				  <option value="39">电气工程学院</option>
+				  <option value="11">电影学院</option>
+				  <option value="24">土木工程学院</option>
+				  <option value="38">城市建设与环境工程学院</option>
+				  <option value="17">外国语学院</option>
+				  <option value="14">建筑城规学院</option>
+				  <option value="13">化学化工学院</option>
+				  <option value="26">动力工程学院</option>
+				  <option value="70">二级学院</option>
+				  <option value="16">体育学院</option>
+				  <option value="34">光电工程学院</option>
+				  <option value="37">公共管理学院</option>
+				  <option value="35">建设管理与房地产学院</option>
+				  <option value="7">弘深学院</option>
+				  <option value="12">法学院</option>
+				  <option value="9">物理学院</option>
+				  <option value="28">生命科学学院</option>
+				  <option value="21">生物工程学院</option>
+				  <option value="10">材料科学与工程学院</option>
+				  <option value="27">机械工程学院</option>
+				  <option value="68">教务处</option>
+				  <option value="22">数学与统计学院</option>
+				  <option value="25">文学与新闻传媒学院</option>
+				  <option value="66">本专科学生</option>
+				  <option value="72">临时学生</option></select>
+	      <span class="am-form-caret"></span>
+    </div>
+    <div class="am-form-group">
+    	<label for="loudong">楼栋 <span class="form-required" title="此项必填。">*</span></label>
+        <select id="loudong" name="loudong" class="form-select required">
+			 <option value="">--请选择--</option>
+			 <option value="87">一教学楼</option>
+			 <option value="91">图书馆</option>
+			 <option value="90">校医院</option>
+			 <option value="92">理科楼</option>
+			 <option value="73">一食堂</option>
+			 <option value="75">三食堂</option>
+			 <option value="74">二食堂</option>
+			 <option value="58">兰园一栋</option>
+			 <option value="64">兰园七栋</option>
+			 <option value="60">兰园三栋</option>
+			 <option value="59">兰园二栋</option>
+			 <option value="65">兰园八栋</option>
+			 <option value="63">兰园六栋</option>
+			 <option value="61">兰园四栋</option>
+			 <option value="52">商业街</option>
+			 <option value="89">工培中心</option>
+			 <option value="50">松园一栋</option>
+			 <option value="51">松园七栋</option>
+			 <option value="54">松园三栋</option>
+			 <option value="53">松园二栋</option>
+			 <option value="56">松园五栋</option>
+			 <option value="57">松园六栋</option>
+			 <option value="55">松园四栋</option>
+			 <option value="1">梅园一栋</option>
+			 <option value="43">梅园七栋</option>
+			 <option value="3">梅园三栋</option>
+			 <option value="2">梅园二栋</option>
+			 <option value="41">梅园五栋</option>
+			 <option value="42">梅园六栋</option>
+			 <option value="40">梅园四栋</option>
+			 <option value="44">竹园一栋</option>
+			 <option value="46">竹园三栋</option>
+			 <option value="45">竹园二栋</option>
+			 <option value="48">竹园五栋</option>
+			 <option value="49">竹园六栋</option>
+			 <option value="47">竹园四栋</option>
+			 <option value="76">第一实验楼</option>
+			 <option value="77">第二实验楼</option>
+			 <option value="88">综合楼</option>
+			 <option value="83">艺术学院</option>
+			 <option value="86">艺术楼</option>
+			 <option value="80">软件学院</option>
+			 <option value="85">弘深学院</option>
+			 <option value="84">外国语学院</option>
+			 <option value="82">新闻学院</option>
+			 <option value="81">数统学院</option>
+			 <option value="78">创新药物中心</option>
+		</select>
+    </div>
+    <div class="am-form-group">
+    	<label for="fangjian">房号 <span class="form-required" title="此项必填。">*</span></label>
+        <input type="text" id="fangjian" name="fangjian" value="" size="10" maxlength="15" class="form-text required" />
+    </div>
+    <div class="am-form-group">
+    	<label for="chuangwei">床位 <span class="form-required" title="此项必填。">*</span></label>
+        <select id="chuangwei" name="chuangwei" class="form-select required">
+			<option value="">--请选择--</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+    </div>
+
+	</fieldset>	
+	<fieldset>
+		<legend style="color:red;">故障信息</legend>
+		<div class="am-form-group">
+			<label for="edit-problem-title">故障名称 <span class="form-required" title="此项必填。">*</span></label>
+ 			<input type="text" id="problem_title" name="problem_title" value="" size="30" maxlength="30" class="required" />
+		</div>
+		<div class="am-form-group">
+			<label for="edit-problem-type">故障类别 <span class="form-required" title="此项必填。">*</span></label>
+            <select id="problem_type" name="problem_type" class="form-select required">
+            	<option value="">--请选择--</option>
+            	<option value="1">有线网络故障</option>
+            	<option value="2">无线网络故障</option>
+            </select>
+		</div>
+		<div class="am-form-group">
+			<label for="edit-problem-desc">故障描述 <span class="form-required" title="此项必填。">*</span></label>
+ 			<input id="problem_desc" name="problem_desc" cols="30" rows="10" class="required">
+ 		</div>
+	</fieldset>
+	<button id="submit" class="btn btn-primary" onclick="tijiao()" style="margin-left:10px;">提交</button>
+</form>
+</div>
+<script type="text/javascript" src="/static/repair/handle.js"></script>
+</body>
+</html>

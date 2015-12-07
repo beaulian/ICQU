@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <title>易班助手</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="重庆大学易班,易班网,易班学生互动社区,上海大学生在线,互动社区,上海大学生,SNS">
+                    <meta name="description" content="重庆大学易班是广大学生的实名互动平台，提供了SNS、博客、微博等Web2.0应用。根据师生的需求，易班研发了话题、日程表等基于班级的特色应用，集成了大量的优质教育资源。">
+                   
+    <!-- Bootstrap core CSS -->
+    <link href="/static/common/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/common/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/static/common/bootstrap.min.js"></script>
+    <link href="/static/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/common/jquery.cookie.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<form class="form">
+    <fieldset>
+    <legend>清除缓存</legend>
+    <div class="form-group">
+      <select id="select" class="form-control">
+        <option value="1">一卡通</option>
+        <option value="2">图书馆</option>
+        <option value="3">维修中心</option>
+        <option value="4">成绩查询</option>
+        <option value="5">课表查询</option>
+        <option value="6">清除所有</option>
+      </select>
+    </div>
+    <p><button id="submit" class="btn btn-primary">提交</button></p>
+    </fieldset>
+</form>
+<script type="text/javascript">
+    $("#submit").click(function() {
+        var select = $("#select").val();
+        switch (select){
+            case "1":
+                $.cookie("studenty", null, {expires: 0});
+                $.cookie("passwordy", null, {expires: 0});
+                break;
+            case "2":
+                $.cookie("studentl", null, {expires: 0});
+                $.cookie("passwordl", null, {expires: 0});
+                break;
+            case "3":
+                $.cookie("studentw", null, {expires: 0});
+                $.cookie("passwordw", null, {expires: 0});
+                break;
+            case "4":
+                $.cookie("studentg", null, {expires: 0});
+                $.cookie("passwordg", null, {expires: 0});
+                break;
+            case "5":
+                $.cookie("student", null, {expires: 0});
+                $.cookie("password", null, {expires: 0});
+                break;
+            case "6":
+                $.cookie("studenty", null, {expires: 0});
+                $.cookie("passwordy", null, {expires: 0});
+                $.cookie("studentl", null, {expires: 0});
+                $.cookie("passwordl", null, {expires: 0});
+                $.cookie("studentw", null, {expires: 0});
+                $.cookie("passwordw", null, {expires: 0});
+                $.cookie("studentg", null, {expires: 0});
+                $.cookie("passwordg", null, {expires: 0});
+                $.cookie("student", null, {expires: 0});
+                $.cookie("password", null, {expires: 0});
+                break;
+            default:
+                break;
+        }
+        window.history.back(-1);
+    });
+</script>
+</body>
+</html>

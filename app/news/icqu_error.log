@@ -1,0 +1,65 @@
+[2015-11-17 00:32:41 +0000] [54997] [INFO] Starting gunicorn 19.3.0
+[2015-11-17 00:32:41 +0000] [54997] [INFO] Listening at: http://127.0.0.1:8081 (54997)
+[2015-11-17 00:32:41 +0000] [54997] [INFO] Using worker: tornado
+[2015-11-17 00:32:41 +0000] [55002] [INFO] Booting worker with pid: 55002
+[2015-11-17 00:32:41 +0000] [55002] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named manager
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named manager
+[2015-11-17 00:32:41 +0000] [55002] [INFO] Worker exiting (pid: 55002)
+[2015-11-17 00:32:41 +0000] [55003] [INFO] Booting worker with pid: 55003
+[2015-11-17 00:32:41 +0000] [55003] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named manager
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named manager
+[2015-11-17 00:32:41 +0000] [55003] [INFO] Worker exiting (pid: 55003)

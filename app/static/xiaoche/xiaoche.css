@@ -1,0 +1,16 @@
+﻿body{
+//background-image:url("img/2.jpg");
+background-color:#E0FFFF;
+background-repeat:no-repeat;
+background-attachment:scroll;
+max-width:100%;
+
+}
+p{
+font-size:1.2em;
+color:#4169E1;
+text-shadow:1px 1px 1px #F5FFFA;
+}
+td,th{
+border-radius:3px;
+}

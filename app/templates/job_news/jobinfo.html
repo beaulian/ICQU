@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript" src="/static/common/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/static/common/bootstrap.min.css">
+    <script type="text/javascript" src="/static/common/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/jobnews/news.css">
+	<title>重大新闻</title>
+</head>
+<body>
+	<div class="panel-body main">
+		<h3>{{ news[order]['source'] }}</h3>
+		<div class="info">
+			<p>用人单位行业：{{ news[order]['industry'] }}</p>
+			<p>用人单位规模：{{ news[order]['scale'] }}</p>
+			<p>用人单位类型：</p>
+		</div>
+		<div class="mainbody">
+			<table class="table table-bordered" id="beizhu" bgcolor="#AABEDC" width="100%">
+				<tr align="left" valign="middle" height="26px">
+					<td bgcolor="E3EEFF" width="10%">时间</td>
+					<td width="90%">{{ news[order]['recruit_time'] }}</td>
+				</tr>
+				<tr align="left" valign="middle" height="26px">
+					<td bgcolor="E3EEFF" width="10%">地点</td>
+					<td width="90%">{{ news[order]['recruit_addr'] }}</td>
+				</tr>
+				<tr align="left" valign="middle" height="26px">
+					<td bgcolor="E3EEFF" width="10%">备注</td>
+					<td width="90%">{{ news[order]['note'] }}</td>
+				</tr>
+				<tr align="left" valign="middle" height="26px">
+					<td bgcolor="E3EEFF" width="10%">招聘说明</td>
+					<td width="90%">{{ news[order]['recruit_explain'] }}</td>
+				</tr>
+			</table>	
+			{{ news[order]['introduction'] }}			
+		</div>
+	</div>
+	 <script type="text/javascript" src="/static/jobnews/info.js"></script>
+	 <script type="text/javascript">
+	 	var img_array = document.getElementsByTagName("img");
+	 	for (var i=0; i<img_array.length; i++){
+	 		var src = img_array[i].src;
+	 		img_array[i].src = "http://job.cqu.edu.cn" + src.split("138")[1]
+	 		img_array[i].style.width = "100%"
+	 	}
+	 </script>
+</body>
+</html>

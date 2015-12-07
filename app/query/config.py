@@ -1,0 +1,2 @@
+REDIS_URI = "localhost"
+REDIS_PORT = 6379
