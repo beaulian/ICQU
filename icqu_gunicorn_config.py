@@ -1,7 +1,7 @@
 workers = 6
 bind = "127.0.0.1:8081"
 backlog = 2048
-timeout = 30
+timeout = 60
 keepalive = 2
 errorlog = 'icqu_error.log'
 loglevel = 'info'
