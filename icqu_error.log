@@ -1,0 +1,16 @@
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Starting gunicorn 19.3.0
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Listening at: http://127.0.0.1:8081 (19950)
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Using worker: tornado
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Server is ready. Spawning workers
+[2015-12-07 20:15:12 +0000] [19960] [INFO] Booting worker with pid: 19960
+[2015-12-07 20:15:12 +0000] [19960] [INFO] Worker spawned (pid: 19960)
+[2015-12-07 20:15:12 +0000] [19962] [INFO] Booting worker with pid: 19962
+[2015-12-07 20:15:12 +0000] [19962] [INFO] Worker spawned (pid: 19962)
+[2015-12-07 20:15:12 +0000] [19972] [INFO] Booting worker with pid: 19972
+[2015-12-07 20:15:12 +0000] [19972] [INFO] Worker spawned (pid: 19972)
+[2015-12-07 20:15:12 +0000] [19975] [INFO] Booting worker with pid: 19975
+[2015-12-07 20:15:12 +0000] [19975] [INFO] Worker spawned (pid: 19975)
+[2015-12-07 20:15:12 +0000] [19982] [INFO] Booting worker with pid: 19982
+[2015-12-07 20:15:12 +0000] [19982] [INFO] Worker spawned (pid: 19982)
+[2015-12-07 20:15:12 +0000] [19986] [INFO] Booting worker with pid: 19986
+[2015-12-07 20:15:12 +0000] [19986] [INFO] Worker spawned (pid: 19986)
