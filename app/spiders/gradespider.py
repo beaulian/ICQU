@@ -28,7 +28,7 @@ class GradeSpider(BaseSpider):
         self.postcore = {
                     "sel_xn": year,
                     "sel_xq": team_number,
-                    "SJ": "1",
+                    "SJ": "0",
                     'btn_search':'%BC%EC%CB%F7',
                     "SelXNXQ": "2",
                     "zfx_flag": "0"
@@ -46,21 +46,23 @@ class GradeSpider(BaseSpider):
         # return
         soup = BeautifulSoup(req2.text)
         try:
-            td = soup("table")[2]("td")
+            td = soup("table")[-1]("td")
         except IndexError:
             self.error = True
             return
         self.grade_info["学年学期"] = td[0].text
         count = len(td)/11
+        # print count
         self.grade_info["课程总数"] = count
         if count == 0:
             self.flag = False
             return
 
         for i in range(len(td)):
-            if i % 11 == 1:
+            if i % 10 == 1:
                 self.grade_info["课程名称"].append(td[i].text)
-            elif i % 11 == 2:
+                # print td[i].text
+            elif i % 10 == 2:
                 self.grade_info["学分"].append(td[i].text)
-            elif i % 11 == 6:
+            elif i % 10 == 6:
                 self.grade_info["成绩"].append(td[i].text)
