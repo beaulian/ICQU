@@ -3,5 +3,5 @@
 *.so
 .idea/
 venv/
-
+*.log
 

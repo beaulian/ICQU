@@ -1,0 +1,40 @@
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Starting gunicorn 19.3.0
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Listening at: http://127.0.0.1:8081 (19950)
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Using worker: tornado
+[2015-12-07 20:15:12 +0000] [19950] [INFO] Server is ready. Spawning workers
+[2015-12-07 20:15:12 +0000] [19960] [INFO] Booting worker with pid: 19960
+[2015-12-07 20:15:12 +0000] [19960] [INFO] Worker spawned (pid: 19960)
+[2015-12-07 20:15:12 +0000] [19962] [INFO] Booting worker with pid: 19962
+[2015-12-07 20:15:12 +0000] [19962] [INFO] Worker spawned (pid: 19962)
+[2015-12-07 20:15:12 +0000] [19972] [INFO] Booting worker with pid: 19972
+[2015-12-07 20:15:12 +0000] [19972] [INFO] Worker spawned (pid: 19972)
+[2015-12-07 20:15:12 +0000] [19975] [INFO] Booting worker with pid: 19975
+[2015-12-07 20:15:12 +0000] [19975] [INFO] Worker spawned (pid: 19975)
+[2015-12-07 20:15:12 +0000] [19982] [INFO] Booting worker with pid: 19982
+[2015-12-07 20:15:12 +0000] [19982] [INFO] Worker spawned (pid: 19982)
+[2015-12-07 20:15:12 +0000] [19986] [INFO] Booting worker with pid: 19986
+[2015-12-07 20:15:12 +0000] [19986] [INFO] Worker spawned (pid: 19986)
+[2015-12-07 20:23:38 +0000] [19950] [INFO] Handling signal: term
+[2015-12-07 20:23:40 +0000] [19972] [INFO] Worker exiting (pid: 19972)
+[2015-12-07 20:23:40 +0000] [19982] [INFO] Worker exiting (pid: 19982)
+[2015-12-07 20:23:40 +0000] [19960] [INFO] Worker exiting (pid: 19960)
+[2015-12-07 20:23:40 +0000] [19986] [INFO] Worker exiting (pid: 19986)
+[2015-12-07 20:23:40 +0000] [19962] [INFO] Worker exiting (pid: 19962)
+[2015-12-07 20:23:40 +0000] [19975] [INFO] Worker exiting (pid: 19975)
+[2015-12-07 20:23:40 +0000] [19950] [INFO] Shutting down: Master
+[2015-12-07 20:23:41 +0000] [20199] [INFO] Starting gunicorn 19.3.0
+[2015-12-07 20:23:41 +0000] [20199] [INFO] Listening at: http://127.0.0.1:8081 (20199)
+[2015-12-07 20:23:41 +0000] [20199] [INFO] Using worker: tornado
+[2015-12-07 20:23:41 +0000] [20199] [INFO] Server is ready. Spawning workers
+[2015-12-07 20:23:41 +0000] [20210] [INFO] Booting worker with pid: 20210
+[2015-12-07 20:23:41 +0000] [20210] [INFO] Worker spawned (pid: 20210)
+[2015-12-07 20:23:41 +0000] [20220] [INFO] Booting worker with pid: 20220
+[2015-12-07 20:23:41 +0000] [20220] [INFO] Worker spawned (pid: 20220)
+[2015-12-07 20:23:41 +0000] [20223] [INFO] Booting worker with pid: 20223
+[2015-12-07 20:23:41 +0000] [20223] [INFO] Worker spawned (pid: 20223)
+[2015-12-07 20:23:41 +0000] [20229] [INFO] Booting worker with pid: 20229
+[2015-12-07 20:23:41 +0000] [20229] [INFO] Worker spawned (pid: 20229)
+[2015-12-07 20:23:41 +0000] [20232] [INFO] Booting worker with pid: 20232
+[2015-12-07 20:23:41 +0000] [20232] [INFO] Worker spawned (pid: 20232)
+[2015-12-07 20:23:41 +0000] [20235] [INFO] Booting worker with pid: 20235
+[2015-12-07 20:23:41 +0000] [20235] [INFO] Worker spawned (pid: 20235)
