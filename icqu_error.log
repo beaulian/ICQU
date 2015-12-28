@@ -38,3 +38,87 @@
 [2015-12-07 20:23:41 +0000] [20232] [INFO] Worker spawned (pid: 20232)
 [2015-12-07 20:23:41 +0000] [20235] [INFO] Booting worker with pid: 20235
 [2015-12-07 20:23:41 +0000] [20235] [INFO] Worker spawned (pid: 20235)
+[2015-12-10 00:10:07 +0000] [20199] [INFO] Handling signal: term
+[2015-12-10 00:10:08 +0000] [20232] [INFO] Worker exiting (pid: 20232)
+[2015-12-10 00:10:08 +0000] [20229] [INFO] Worker exiting (pid: 20229)
+[2015-12-10 00:10:08 +0000] [20235] [INFO] Worker exiting (pid: 20235)
+[2015-12-10 00:10:08 +0000] [20220] [INFO] Worker exiting (pid: 20220)
+[2015-12-10 00:10:08 +0000] [20223] [INFO] Worker exiting (pid: 20223)
+[2015-12-10 00:10:08 +0000] [20210] [INFO] Worker exiting (pid: 20210)
+[2015-12-10 00:10:08 +0000] [20199] [INFO] Shutting down: Master
+[2015-12-10 00:10:09 +0000] [38222] [INFO] Starting gunicorn 19.3.0
+[2015-12-10 00:10:09 +0000] [38222] [INFO] Listening at: http://127.0.0.1:8081 (38222)
+[2015-12-10 00:10:09 +0000] [38222] [INFO] Using worker: tornado
+[2015-12-10 00:10:09 +0000] [38222] [INFO] Server is ready. Spawning workers
+[2015-12-10 00:10:09 +0000] [38233] [INFO] Booting worker with pid: 38233
+[2015-12-10 00:10:09 +0000] [38233] [INFO] Worker spawned (pid: 38233)
+[2015-12-10 00:10:09 +0000] [38241] [INFO] Booting worker with pid: 38241
+[2015-12-10 00:10:09 +0000] [38241] [INFO] Worker spawned (pid: 38241)
+[2015-12-10 00:10:09 +0000] [38246] [INFO] Booting worker with pid: 38246
+[2015-12-10 00:10:09 +0000] [38246] [INFO] Worker spawned (pid: 38246)
+[2015-12-10 00:10:09 +0000] [38251] [INFO] Booting worker with pid: 38251
+[2015-12-10 00:10:09 +0000] [38251] [INFO] Worker spawned (pid: 38251)
+[2015-12-10 00:10:09 +0000] [38252] [INFO] Booting worker with pid: 38252
+[2015-12-10 00:10:09 +0000] [38252] [INFO] Worker spawned (pid: 38252)
+[2015-12-10 00:10:09 +0000] [38256] [INFO] Booting worker with pid: 38256
+[2015-12-10 00:10:09 +0000] [38256] [INFO] Worker spawned (pid: 38256)
+[2015-12-10 00:11:32 +0000] [38222] [INFO] Handling signal: term
+[2015-12-10 00:11:33 +0000] [38241] [INFO] Worker exiting (pid: 38241)
+[2015-12-10 00:11:33 +0000] [38233] [INFO] Worker exiting (pid: 38233)
+[2015-12-10 00:11:33 +0000] [38256] [INFO] Worker exiting (pid: 38256)
+[2015-12-10 00:11:33 +0000] [38246] [INFO] Worker exiting (pid: 38246)
+[2015-12-10 00:11:33 +0000] [38251] [INFO] Worker exiting (pid: 38251)
+[2015-12-10 00:11:33 +0000] [38252] [INFO] Worker exiting (pid: 38252)
+[2015-12-10 00:11:33 +0000] [38222] [INFO] Shutting down: Master
+[2015-12-10 00:16:06 +0000] [2503] [INFO] Starting gunicorn 19.3.0
+[2015-12-10 00:16:06 +0000] [2503] [INFO] Listening at: http://127.0.0.1:8081 (2503)
+[2015-12-10 00:16:06 +0000] [2503] [INFO] Using worker: tornado
+[2015-12-10 00:16:06 +0000] [2503] [INFO] Server is ready. Spawning workers
+[2015-12-10 00:16:06 +0000] [2521] [INFO] Booting worker with pid: 2521
+[2015-12-10 00:16:06 +0000] [2521] [INFO] Worker spawned (pid: 2521)
+[2015-12-10 00:16:06 +0000] [2524] [INFO] Booting worker with pid: 2524
+[2015-12-10 00:16:06 +0000] [2524] [INFO] Worker spawned (pid: 2524)
+[2015-12-10 00:16:07 +0000] [2525] [INFO] Booting worker with pid: 2525
+[2015-12-10 00:16:07 +0000] [2525] [INFO] Worker spawned (pid: 2525)
+[2015-12-10 00:16:07 +0000] [2526] [INFO] Booting worker with pid: 2526
+[2015-12-10 00:16:07 +0000] [2526] [INFO] Worker spawned (pid: 2526)
+[2015-12-10 00:16:07 +0000] [2554] [INFO] Booting worker with pid: 2554
+[2015-12-10 00:16:07 +0000] [2554] [INFO] Worker spawned (pid: 2554)
+[2015-12-10 00:16:07 +0000] [2559] [INFO] Booting worker with pid: 2559
+[2015-12-10 00:16:07 +0000] [2559] [INFO] Worker spawned (pid: 2559)
+[2015-12-21 19:13:06 +0000] [3649] [INFO] Starting gunicorn 19.3.0
+[2015-12-21 19:13:06 +0000] [3649] [INFO] Listening at: http://127.0.0.1:8081 (3649)
+[2015-12-21 19:13:06 +0000] [3649] [INFO] Using worker: tornado
+[2015-12-21 19:13:06 +0000] [3649] [INFO] Server is ready. Spawning workers
+[2015-12-21 19:13:06 +0000] [3673] [INFO] Booting worker with pid: 3673
+[2015-12-21 19:13:06 +0000] [3673] [INFO] Worker spawned (pid: 3673)
+[2015-12-21 19:13:06 +0000] [3679] [INFO] Booting worker with pid: 3679
+[2015-12-21 19:13:06 +0000] [3679] [INFO] Worker spawned (pid: 3679)
+[2015-12-21 19:13:06 +0000] [3689] [INFO] Booting worker with pid: 3689
+[2015-12-21 19:13:06 +0000] [3689] [INFO] Worker spawned (pid: 3689)
+[2015-12-21 19:13:06 +0000] [3690] [INFO] Booting worker with pid: 3690
+[2015-12-21 19:13:06 +0000] [3690] [INFO] Worker spawned (pid: 3690)
+[2015-12-21 19:13:06 +0000] [3691] [INFO] Booting worker with pid: 3691
+[2015-12-21 19:13:06 +0000] [3691] [INFO] Worker spawned (pid: 3691)
+[2015-12-21 19:13:06 +0000] [3701] [INFO] Booting worker with pid: 3701
+[2015-12-21 19:13:06 +0000] [3701] [INFO] Worker spawned (pid: 3701)
+[2015-12-23 18:04:07 +0000] [3649] [CRITICAL] WORKER TIMEOUT (pid:3689)
+[2015-12-23 18:04:07 +0000] [3689] [INFO] worker received SIGABRT signal
+[2015-12-23 18:04:08 +0000] [9765] [INFO] Booting worker with pid: 9765
+[2015-12-23 18:04:08 +0000] [9765] [INFO] Worker spawned (pid: 9765)
+[2015-12-23 18:06:43 +0000] [3649] [CRITICAL] WORKER TIMEOUT (pid:9765)
+[2015-12-23 18:06:43 +0000] [9765] [INFO] worker received SIGABRT signal
+[2015-12-23 18:06:44 +0000] [9768] [INFO] Booting worker with pid: 9768
+[2015-12-23 18:06:44 +0000] [9768] [INFO] Worker spawned (pid: 9768)
+[2015-12-23 18:08:17 +0000] [3649] [CRITICAL] WORKER TIMEOUT (pid:9768)
+[2015-12-23 18:08:17 +0000] [9768] [INFO] worker received SIGABRT signal
+[2015-12-23 18:08:18 +0000] [9771] [INFO] Booting worker with pid: 9771
+[2015-12-23 18:08:18 +0000] [9771] [INFO] Worker spawned (pid: 9771)
+[2015-12-23 21:29:58 +0000] [3649] [CRITICAL] WORKER TIMEOUT (pid:3679)
+[2015-12-23 21:29:58 +0000] [3679] [INFO] worker received SIGABRT signal
+[2015-12-23 21:29:59 +0000] [10028] [INFO] Booting worker with pid: 10028
+[2015-12-23 21:29:59 +0000] [10028] [INFO] Worker spawned (pid: 10028)
+[2015-12-23 21:30:13 +0000] [3649] [CRITICAL] WORKER TIMEOUT (pid:3691)
+[2015-12-23 21:30:13 +0000] [3691] [INFO] worker received SIGABRT signal
+[2015-12-23 21:30:14 +0000] [10031] [INFO] Booting worker with pid: 10031
+[2015-12-23 21:30:14 +0000] [10031] [INFO] Worker spawned (pid: 10031)
