@@ -63,8 +63,4 @@ class GradeSpider(BaseSpider):
             elif i % 10 == 2:
                 self.grade_info["学分"].append(td[i].text)
             elif i % 10 == 6:
-<<<<<<< HEAD
                 self.grade_info["成绩"].append(td[i].text)
-=======
-                self.grade_info["成绩"].append(td[i].text)
->>>>>>> 975334388c0eb63fa506baefe4a4b3c5e2009612

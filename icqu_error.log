@@ -122,3 +122,99 @@
 [2015-12-23 21:30:13 +0000] [3691] [INFO] worker received SIGABRT signal
 [2015-12-23 21:30:14 +0000] [10031] [INFO] Booting worker with pid: 10031
 [2015-12-23 21:30:14 +0000] [10031] [INFO] Worker spawned (pid: 10031)
+[2015-12-28 23:51:17 +0000] [3649] [INFO] Handling signal: term
+[2015-12-28 23:51:19 +0000] [9771] [INFO] Worker exiting (pid: 9771)
+[2015-12-28 23:51:19 +0000] [10028] [INFO] Worker exiting (pid: 10028)
+[2015-12-28 23:51:19 +0000] [3690] [INFO] Worker exiting (pid: 3690)
+[2015-12-28 23:51:19 +0000] [3701] [INFO] Worker exiting (pid: 3701)
+[2015-12-28 23:51:19 +0000] [3673] [INFO] Worker exiting (pid: 3673)
+[2015-12-28 23:51:19 +0000] [10031] [INFO] Worker exiting (pid: 10031)
+[2015-12-28 23:51:19 +0000] [3649] [INFO] Shutting down: Master
+[2015-12-28 23:51:19 +0000] [47613] [INFO] Starting gunicorn 19.3.0
+[2015-12-28 23:51:19 +0000] [47613] [INFO] Listening at: http://127.0.0.1:8081 (47613)
+[2015-12-28 23:51:19 +0000] [47613] [INFO] Using worker: tornado
+[2015-12-28 23:51:19 +0000] [47613] [INFO] Server is ready. Spawning workers
+[2015-12-28 23:51:19 +0000] [47618] [INFO] Booting worker with pid: 47618
+[2015-12-28 23:51:19 +0000] [47618] [INFO] Worker spawned (pid: 47618)
+[2015-12-28 23:51:19 +0000] [47621] [INFO] Booting worker with pid: 47621
+[2015-12-28 23:51:19 +0000] [47621] [INFO] Worker spawned (pid: 47621)
+[2015-12-28 23:51:19 +0000] [47623] [INFO] Booting worker with pid: 47623
+[2015-12-28 23:51:19 +0000] [47623] [INFO] Worker spawned (pid: 47623)
+[2015-12-28 23:51:19 +0000] [47625] [INFO] Booting worker with pid: 47625
+[2015-12-28 23:51:19 +0000] [47625] [INFO] Worker spawned (pid: 47625)
+[2015-12-28 23:51:19 +0000] [47630] [INFO] Booting worker with pid: 47630
+[2015-12-28 23:51:19 +0000] [47630] [INFO] Worker spawned (pid: 47630)
+[2015-12-28 23:51:19 +0000] [47633] [INFO] Booting worker with pid: 47633
+[2015-12-28 23:51:19 +0000] [47633] [INFO] Worker spawned (pid: 47633)
+[2015-12-29 00:04:13 +0000] [47613] [INFO] Handling signal: term
+[2015-12-29 00:04:15 +0000] [47633] [INFO] Worker exiting (pid: 47633)
+[2015-12-29 00:04:15 +0000] [47625] [INFO] Worker exiting (pid: 47625)
+[2015-12-29 00:04:15 +0000] [47618] [INFO] Worker exiting (pid: 47618)
+[2015-12-29 00:04:15 +0000] [47621] [INFO] Worker exiting (pid: 47621)
+[2015-12-29 00:04:15 +0000] [47630] [INFO] Worker exiting (pid: 47630)
+[2015-12-29 00:04:15 +0000] [47623] [INFO] Worker exiting (pid: 47623)
+[2015-12-29 00:04:15 +0000] [47613] [INFO] Shutting down: Master
+[2015-12-29 00:04:15 +0000] [47682] [INFO] Starting gunicorn 19.3.0
+[2015-12-29 00:04:15 +0000] [47682] [INFO] Listening at: http://127.0.0.1:8081 (47682)
+[2015-12-29 00:04:15 +0000] [47682] [INFO] Using worker: tornado
+[2015-12-29 00:04:15 +0000] [47682] [INFO] Server is ready. Spawning workers
+[2015-12-29 00:04:15 +0000] [47687] [INFO] Booting worker with pid: 47687
+[2015-12-29 00:04:15 +0000] [47687] [INFO] Worker spawned (pid: 47687)
+[2015-12-29 00:04:15 +0000] [47688] [INFO] Booting worker with pid: 47688
+[2015-12-29 00:04:15 +0000] [47688] [INFO] Worker spawned (pid: 47688)
+[2015-12-29 00:04:15 +0000] [47693] [INFO] Booting worker with pid: 47693
+[2015-12-29 00:04:15 +0000] [47693] [INFO] Worker spawned (pid: 47693)
+[2015-12-29 00:04:15 +0000] [47694] [INFO] Booting worker with pid: 47694
+[2015-12-29 00:04:15 +0000] [47694] [INFO] Worker spawned (pid: 47694)
+[2015-12-29 00:04:15 +0000] [47697] [INFO] Booting worker with pid: 47697
+[2015-12-29 00:04:15 +0000] [47697] [INFO] Worker spawned (pid: 47697)
+[2015-12-29 00:04:15 +0000] [47702] [INFO] Booting worker with pid: 47702
+[2015-12-29 00:04:15 +0000] [47702] [INFO] Worker spawned (pid: 47702)
+[2015-12-29 00:06:00 +0000] [47682] [INFO] Handling signal: term
+[2015-12-29 00:06:01 +0000] [47687] [INFO] Worker exiting (pid: 47687)
+[2015-12-29 00:06:01 +0000] [47694] [INFO] Worker exiting (pid: 47694)
+[2015-12-29 00:06:01 +0000] [47693] [INFO] Worker exiting (pid: 47693)
+[2015-12-29 00:06:01 +0000] [47702] [INFO] Worker exiting (pid: 47702)
+[2015-12-29 00:06:01 +0000] [47697] [INFO] Worker exiting (pid: 47697)
+[2015-12-29 00:06:01 +0000] [47688] [INFO] Worker exiting (pid: 47688)
+[2015-12-29 00:06:01 +0000] [47682] [INFO] Shutting down: Master
+[2015-12-29 00:06:01 +0000] [47812] [INFO] Starting gunicorn 19.3.0
+[2015-12-29 00:06:01 +0000] [47812] [INFO] Listening at: http://127.0.0.1:8081 (47812)
+[2015-12-29 00:06:01 +0000] [47812] [INFO] Using worker: tornado
+[2015-12-29 00:06:01 +0000] [47812] [INFO] Server is ready. Spawning workers
+[2015-12-29 00:06:01 +0000] [47817] [INFO] Booting worker with pid: 47817
+[2015-12-29 00:06:01 +0000] [47817] [INFO] Worker spawned (pid: 47817)
+[2015-12-29 00:06:01 +0000] [47818] [INFO] Booting worker with pid: 47818
+[2015-12-29 00:06:01 +0000] [47818] [INFO] Worker spawned (pid: 47818)
+[2015-12-29 00:06:01 +0000] [47821] [INFO] Booting worker with pid: 47821
+[2015-12-29 00:06:01 +0000] [47821] [INFO] Worker spawned (pid: 47821)
+[2015-12-29 00:06:01 +0000] [47822] [INFO] Booting worker with pid: 47822
+[2015-12-29 00:06:01 +0000] [47822] [INFO] Worker spawned (pid: 47822)
+[2015-12-29 00:06:01 +0000] [47823] [INFO] Booting worker with pid: 47823
+[2015-12-29 00:06:01 +0000] [47823] [INFO] Worker spawned (pid: 47823)
+[2015-12-29 00:06:01 +0000] [47832] [INFO] Booting worker with pid: 47832
+[2015-12-29 00:06:01 +0000] [47832] [INFO] Worker spawned (pid: 47832)
+[2015-12-29 00:07:43 +0000] [47812] [INFO] Handling signal: term
+[2015-12-29 00:07:44 +0000] [47822] [INFO] Worker exiting (pid: 47822)
+[2015-12-29 00:07:44 +0000] [47818] [INFO] Worker exiting (pid: 47818)
+[2015-12-29 00:07:44 +0000] [47821] [INFO] Worker exiting (pid: 47821)
+[2015-12-29 00:07:44 +0000] [47823] [INFO] Worker exiting (pid: 47823)
+[2015-12-29 00:07:44 +0000] [47817] [INFO] Worker exiting (pid: 47817)
+[2015-12-29 00:07:44 +0000] [47832] [INFO] Worker exiting (pid: 47832)
+[2015-12-29 00:07:44 +0000] [47812] [INFO] Shutting down: Master
+[2015-12-29 00:07:45 +0000] [47890] [INFO] Starting gunicorn 19.3.0
+[2015-12-29 00:07:45 +0000] [47890] [INFO] Listening at: http://127.0.0.1:8081 (47890)
+[2015-12-29 00:07:45 +0000] [47890] [INFO] Using worker: tornado
+[2015-12-29 00:07:45 +0000] [47890] [INFO] Server is ready. Spawning workers
+[2015-12-29 00:07:45 +0000] [47895] [INFO] Booting worker with pid: 47895
+[2015-12-29 00:07:45 +0000] [47895] [INFO] Worker spawned (pid: 47895)
+[2015-12-29 00:07:45 +0000] [47898] [INFO] Booting worker with pid: 47898
+[2015-12-29 00:07:45 +0000] [47898] [INFO] Worker spawned (pid: 47898)
+[2015-12-29 00:07:45 +0000] [47899] [INFO] Booting worker with pid: 47899
+[2015-12-29 00:07:45 +0000] [47899] [INFO] Worker spawned (pid: 47899)
+[2015-12-29 00:07:45 +0000] [47904] [INFO] Booting worker with pid: 47904
+[2015-12-29 00:07:45 +0000] [47904] [INFO] Worker spawned (pid: 47904)
+[2015-12-29 00:07:45 +0000] [47907] [INFO] Booting worker with pid: 47907
+[2015-12-29 00:07:45 +0000] [47907] [INFO] Worker spawned (pid: 47907)
+[2015-12-29 00:07:45 +0000] [47910] [INFO] Booting worker with pid: 47910
+[2015-12-29 00:07:45 +0000] [47910] [INFO] Worker spawned (pid: 47910)
