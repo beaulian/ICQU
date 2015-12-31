@@ -23,8 +23,8 @@ def set_subject_exist(subject):
 	r3.sadd("subject_exist", subject)
 
 
-def send_grade_info(mail_receiver, year, team):
-	spider = GradeSpider(sys.argv[1], sys.argv[2], year, team)
+def send_grade_info(mail_receiver, year, team, userID, password, mail_password):
+	spider = GradeSpider(userID, password, year, team)
 	spider.post()
 	grade_info = spider.grade_info
 	grade_subject = grade_info["课程名称"]
@@ -40,10 +40,10 @@ def send_grade_info(mail_receiver, year, team):
 		prefix_str = "新出来的成绩如下:  \n\n"
 		content_str = "\n\n".join(["课程名称为: " + subject +
 						 "\n成绩为: " + score for subject, score in grade.iteritems()])
-		send_mail(prefix_str + content_str, mail_receiver)
+		send_mail(prefix_str + content_str, mail_receiver, mail_password)
 
 
-send_grade_info("gjw.jesus@qq.com", "2015", "0")
+send_grade_info("gjw.jesus@qq.com", "2015", "0", *sys.argv[1:])
             	
 
 
