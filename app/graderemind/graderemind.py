@@ -23,7 +23,7 @@ def set_subject_exist(subject):
 	r3.sadd("subject_exist", subject)
 
 
-def send_grade_info(mail_receiver, year, team, userID, password, mail_password):
+def send_grade_info(year, team, userID, password, mail_password, mail_receiver):
 	spider = GradeSpider(userID, password, year, team)
 	spider.post()
 	grade_info = spider.grade_info
@@ -43,7 +43,7 @@ def send_grade_info(mail_receiver, year, team, userID, password, mail_password):
 		send_mail(prefix_str + content_str, mail_receiver, mail_password)
 
 
-send_grade_info("gjw.jesus@qq.com", "2015", "0", *sys.argv[1:])
+send_grade_info("2015", "0", *sys.argv[1:])
             	
 
 
