@@ -41,6 +41,8 @@ def send_grade_info(year, team, userID, password, mail_password, mail_receiver):
 		content_str = "\n\n".join(["课程名称为: " + subject +
 						 "\n成绩为: " + score for subject, score in grade.iteritems()])
 		send_mail(prefix_str + content_str, mail_receiver, mail_password)
+	else:
+		send_mail("还没有新成绩出来", mail_receiver, mail_password)
 
 
 send_grade_info("2015", "0", *sys.argv[1:])
