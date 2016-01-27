@@ -50,5 +50,5 @@ class KaobiaoSpider(BaseSpider):
 
 
 if __name__ == '__main__':
-    spider = KaobiaoSpider("20144483", "15451x")
+    spider = KaobiaoSpider("学号", "密码")
     spider.post()
