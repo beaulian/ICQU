@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from flask import render_template, make_response
+from flask import render_template, make_response, redirect
 from . import main
 
 
@@ -31,7 +31,7 @@ def kard():
 
 @main.route("/repair", methods=["GET"])
 def repair():
-	return render_template("main/repair.html")
+	return redirect("http://222.198.155.111/huxi/")
 
 @main.route("/kebiao", methods=["GET"])
 def kebiao():

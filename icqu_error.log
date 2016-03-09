@@ -218,3 +218,183 @@
 [2015-12-29 00:07:45 +0000] [47907] [INFO] Worker spawned (pid: 47907)
 [2015-12-29 00:07:45 +0000] [47910] [INFO] Booting worker with pid: 47910
 [2015-12-29 00:07:45 +0000] [47910] [INFO] Worker spawned (pid: 47910)
+[2016-01-18 16:20:56 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47895)
+[2016-01-18 16:20:56 +0000] [47895] [INFO] worker received SIGABRT signal
+[2016-01-18 16:20:57 +0000] [89996] [INFO] Booting worker with pid: 89996
+[2016-01-18 16:20:57 +0000] [89996] [INFO] Worker spawned (pid: 89996)
+[2016-01-19 10:58:14 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47904)
+[2016-01-19 10:58:14 +0000] [47904] [INFO] worker received SIGABRT signal
+[2016-01-19 10:58:15 +0000] [831] [INFO] Booting worker with pid: 831
+[2016-01-19 10:58:15 +0000] [831] [INFO] Worker spawned (pid: 831)
+[2016-01-19 11:01:33 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:831)
+[2016-01-19 11:01:33 +0000] [831] [INFO] worker received SIGABRT signal
+[2016-01-19 11:01:34 +0000] [850] [INFO] Booting worker with pid: 850
+[2016-01-19 11:01:34 +0000] [850] [INFO] Worker spawned (pid: 850)
+[2016-01-19 11:02:44 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47898)
+[2016-01-19 11:02:44 +0000] [47898] [INFO] worker received SIGABRT signal
+[2016-01-19 11:02:45 +0000] [853] [INFO] Booting worker with pid: 853
+[2016-01-19 11:02:45 +0000] [853] [INFO] Worker spawned (pid: 853)
+[2016-01-21 10:40:46 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47910)
+[2016-01-21 10:40:46 +0000] [47910] [INFO] worker received SIGABRT signal
+[2016-01-21 10:40:47 +0000] [16776] [INFO] Booting worker with pid: 16776
+[2016-01-21 10:40:47 +0000] [16776] [INFO] Worker spawned (pid: 16776)
+[2016-01-21 10:41:02 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47907)
+[2016-01-21 10:41:02 +0000] [47907] [INFO] worker received SIGABRT signal
+[2016-01-21 10:41:03 +0000] [16782] [INFO] Booting worker with pid: 16782
+[2016-01-21 10:41:03 +0000] [16782] [INFO] Worker spawned (pid: 16782)
+[2016-01-21 11:27:12 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:16782)
+[2016-01-21 11:27:12 +0000] [16782] [INFO] worker received SIGABRT signal
+[2016-01-21 11:27:13 +0000] [17159] [INFO] Booting worker with pid: 17159
+[2016-01-21 11:27:13 +0000] [17159] [INFO] Worker spawned (pid: 17159)
+[2016-01-21 11:28:23 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:16776)
+[2016-01-21 11:28:23 +0000] [16776] [INFO] worker received SIGABRT signal
+[2016-01-21 11:28:24 +0000] [17162] [INFO] Booting worker with pid: 17162
+[2016-01-21 11:28:24 +0000] [17162] [INFO] Worker spawned (pid: 17162)
+[2016-01-21 11:32:16 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17162)
+[2016-01-21 11:32:16 +0000] [17162] [INFO] worker received SIGABRT signal
+[2016-01-21 11:32:17 +0000] [17166] [INFO] Booting worker with pid: 17166
+[2016-01-21 11:32:17 +0000] [17166] [INFO] Worker spawned (pid: 17166)
+[2016-01-21 11:33:27 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17159)
+[2016-01-21 11:33:27 +0000] [17159] [INFO] worker received SIGABRT signal
+[2016-01-21 11:33:28 +0000] [17169] [INFO] Booting worker with pid: 17169
+[2016-01-21 11:33:28 +0000] [17169] [INFO] Worker spawned (pid: 17169)
+[2016-01-21 11:33:49 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17166)
+[2016-01-21 11:33:49 +0000] [17166] [INFO] worker received SIGABRT signal
+[2016-01-21 11:33:50 +0000] [17172] [INFO] Booting worker with pid: 17172
+[2016-01-21 11:33:50 +0000] [17172] [INFO] Worker spawned (pid: 17172)
+[2016-01-21 11:34:36 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17169)
+[2016-01-21 11:34:36 +0000] [17169] [INFO] worker received SIGABRT signal
+[2016-01-21 11:34:37 +0000] [17175] [INFO] Booting worker with pid: 17175
+[2016-01-21 11:34:37 +0000] [17175] [INFO] Worker spawned (pid: 17175)
+[2016-01-21 11:35:20 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17172)
+[2016-01-21 11:35:20 +0000] [17172] [INFO] worker received SIGABRT signal
+[2016-01-21 11:35:21 +0000] [17178] [INFO] Booting worker with pid: 17178
+[2016-01-21 11:35:21 +0000] [17178] [INFO] Worker spawned (pid: 17178)
+[2016-01-21 11:35:23 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:47899)
+[2016-01-21 11:35:23 +0000] [47899] [INFO] worker received SIGABRT signal
+[2016-01-21 11:35:24 +0000] [17181] [INFO] Booting worker with pid: 17181
+[2016-01-21 11:35:24 +0000] [17181] [INFO] Worker spawned (pid: 17181)
+[2016-01-21 11:38:27 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17181)
+[2016-01-21 11:38:27 +0000] [17181] [INFO] worker received SIGABRT signal
+[2016-01-21 11:38:28 +0000] [17184] [INFO] Booting worker with pid: 17184
+[2016-01-21 11:38:28 +0000] [17184] [INFO] Worker spawned (pid: 17184)
+[2016-01-21 11:39:33 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:89996)
+[2016-01-21 11:39:33 +0000] [89996] [INFO] worker received SIGABRT signal
+[2016-01-21 11:39:34 +0000] [17202] [INFO] Booting worker with pid: 17202
+[2016-01-21 11:39:34 +0000] [17202] [INFO] Worker spawned (pid: 17202)
+[2016-01-21 11:40:56 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17202)
+[2016-01-21 11:40:56 +0000] [17202] [INFO] worker received SIGABRT signal
+[2016-01-21 11:40:57 +0000] [17206] [INFO] Booting worker with pid: 17206
+[2016-01-21 11:40:57 +0000] [17206] [INFO] Worker spawned (pid: 17206)
+[2016-01-21 11:41:05 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17178)
+[2016-01-21 11:41:05 +0000] [17178] [INFO] worker received SIGABRT signal
+[2016-01-21 11:41:06 +0000] [17209] [INFO] Booting worker with pid: 17209
+[2016-01-21 11:41:06 +0000] [17209] [INFO] Worker spawned (pid: 17209)
+[2016-01-21 11:41:26 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17175)
+[2016-01-21 11:41:26 +0000] [17175] [INFO] worker received SIGABRT signal
+[2016-01-21 11:41:27 +0000] [17212] [INFO] Booting worker with pid: 17212
+[2016-01-21 11:41:27 +0000] [17212] [INFO] Worker spawned (pid: 17212)
+[2016-01-21 11:42:14 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17209)
+[2016-01-21 11:42:14 +0000] [17209] [INFO] worker received SIGABRT signal
+[2016-01-21 11:42:15 +0000] [17215] [INFO] Booting worker with pid: 17215
+[2016-01-21 11:42:15 +0000] [17215] [INFO] Worker spawned (pid: 17215)
+[2016-01-21 11:46:35 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17215)
+[2016-01-21 11:46:35 +0000] [17215] [INFO] worker received SIGABRT signal
+[2016-01-21 11:46:36 +0000] [17218] [INFO] Booting worker with pid: 17218
+[2016-01-21 11:46:36 +0000] [17218] [INFO] Worker spawned (pid: 17218)
+[2016-01-21 11:48:10 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17218)
+[2016-01-21 11:48:10 +0000] [17218] [INFO] worker received SIGABRT signal
+[2016-01-21 11:48:11 +0000] [17221] [INFO] Booting worker with pid: 17221
+[2016-01-21 11:48:11 +0000] [17221] [INFO] Worker spawned (pid: 17221)
+[2016-01-21 12:00:54 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17221)
+[2016-01-21 12:00:54 +0000] [17221] [INFO] worker received SIGABRT signal
+[2016-01-21 12:00:55 +0000] [17233] [INFO] Booting worker with pid: 17233
+[2016-01-21 12:00:55 +0000] [17233] [INFO] Worker spawned (pid: 17233)
+[2016-01-21 12:15:24 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17212)
+[2016-01-21 12:15:24 +0000] [17212] [INFO] worker received SIGABRT signal
+[2016-01-21 12:15:25 +0000] [17252] [INFO] Booting worker with pid: 17252
+[2016-01-21 12:15:25 +0000] [17252] [INFO] Worker spawned (pid: 17252)
+[2016-01-21 12:15:42 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:850)
+[2016-01-21 12:15:42 +0000] [850] [INFO] worker received SIGABRT signal
+[2016-01-21 12:15:43 +0000] [17255] [INFO] Booting worker with pid: 17255
+[2016-01-21 12:15:43 +0000] [17255] [INFO] Worker spawned (pid: 17255)
+[2016-01-21 17:18:28 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17206)
+[2016-01-21 17:18:28 +0000] [17206] [INFO] worker received SIGABRT signal
+[2016-01-21 17:18:29 +0000] [20156] [INFO] Booting worker with pid: 20156
+[2016-01-21 17:18:29 +0000] [20156] [INFO] Worker spawned (pid: 20156)
+[2016-01-21 17:19:48 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:20156)
+[2016-01-21 17:19:48 +0000] [20156] [INFO] worker received SIGABRT signal
+[2016-01-21 17:19:49 +0000] [20159] [INFO] Booting worker with pid: 20159
+[2016-01-21 17:19:49 +0000] [20159] [INFO] Worker spawned (pid: 20159)
+[2016-02-17 12:35:37 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:20159)
+[2016-02-17 12:35:37 +0000] [20159] [INFO] worker received SIGABRT signal
+[2016-02-17 12:35:38 +0000] [89977] [INFO] Booting worker with pid: 89977
+[2016-02-17 12:35:38 +0000] [89977] [INFO] Worker spawned (pid: 89977)
+[2016-02-17 12:36:01 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17184)
+[2016-02-17 12:36:01 +0000] [17184] [INFO] worker received SIGABRT signal
+[2016-02-17 12:36:02 +0000] [89980] [INFO] Booting worker with pid: 89980
+[2016-02-17 12:36:02 +0000] [89980] [INFO] Worker spawned (pid: 89980)
+[2016-02-22 10:25:14 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:853)
+[2016-02-22 10:25:14 +0000] [853] [INFO] worker received SIGABRT signal
+[2016-02-22 10:25:15 +0000] [26502] [INFO] Booting worker with pid: 26502
+[2016-02-22 10:25:15 +0000] [26502] [INFO] Worker spawned (pid: 26502)
+[2016-02-23 21:40:05 +0000] [47890] [CRITICAL] WORKER TIMEOUT (pid:17233)
+[2016-02-23 21:40:05 +0000] [17233] [INFO] worker received SIGABRT signal
+[2016-02-23 21:40:06 +0000] [38814] [INFO] Booting worker with pid: 38814
+[2016-02-23 21:40:06 +0000] [38814] [INFO] Worker spawned (pid: 38814)
+[2016-02-25 17:19:59 +0000] [47890] [INFO] Handling signal: term
+[2016-02-25 17:20:00 +0000] [17255] [INFO] Worker exiting (pid: 17255)
+[2016-02-25 17:20:00 +0000] [26502] [INFO] Worker exiting (pid: 26502)
+[2016-02-25 17:20:00 +0000] [17252] [INFO] Worker exiting (pid: 17252)
+[2016-02-25 17:20:00 +0000] [89977] [INFO] Worker exiting (pid: 89977)
+[2016-02-25 17:20:00 +0000] [38814] [INFO] Worker exiting (pid: 38814)
+[2016-02-25 17:20:00 +0000] [89980] [INFO] Worker exiting (pid: 89980)
+[2016-02-25 17:20:00 +0000] [47890] [INFO] Shutting down: Master
+[2016-02-25 17:31:11 +0000] [2581] [INFO] Starting gunicorn 19.3.0
+[2016-02-25 17:31:11 +0000] [2581] [INFO] Listening at: http://127.0.0.1:8081 (2581)
+[2016-02-25 17:31:11 +0000] [2581] [INFO] Using worker: tornado
+[2016-02-25 17:31:11 +0000] [2581] [INFO] Server is ready. Spawning workers
+[2016-02-25 17:31:11 +0000] [2605] [INFO] Booting worker with pid: 2605
+[2016-02-25 17:31:11 +0000] [2605] [INFO] Worker spawned (pid: 2605)
+[2016-02-25 17:31:11 +0000] [2611] [INFO] Booting worker with pid: 2611
+[2016-02-25 17:31:11 +0000] [2611] [INFO] Worker spawned (pid: 2611)
+[2016-02-25 17:31:11 +0000] [2622] [INFO] Booting worker with pid: 2622
+[2016-02-25 17:31:11 +0000] [2622] [INFO] Worker spawned (pid: 2622)
+[2016-02-25 17:31:11 +0000] [2626] [INFO] Booting worker with pid: 2626
+[2016-02-25 17:31:11 +0000] [2626] [INFO] Worker spawned (pid: 2626)
+[2016-02-25 17:31:11 +0000] [2632] [INFO] Booting worker with pid: 2632
+[2016-02-25 17:31:11 +0000] [2632] [INFO] Worker spawned (pid: 2632)
+[2016-02-25 17:31:11 +0000] [2637] [INFO] Booting worker with pid: 2637
+[2016-02-25 17:31:11 +0000] [2637] [INFO] Worker spawned (pid: 2637)
+[2016-03-01 16:50:55 +0000] [3390] [INFO] Starting gunicorn 19.3.0
+[2016-03-01 16:50:55 +0000] [3390] [INFO] Listening at: http://127.0.0.1:8081 (3390)
+[2016-03-01 16:50:55 +0000] [3390] [INFO] Using worker: tornado
+[2016-03-01 16:50:55 +0000] [3390] [INFO] Server is ready. Spawning workers
+[2016-03-01 16:50:55 +0000] [3414] [INFO] Booting worker with pid: 3414
+[2016-03-01 16:50:55 +0000] [3414] [INFO] Worker spawned (pid: 3414)
+[2016-03-01 16:50:55 +0000] [3418] [INFO] Booting worker with pid: 3418
+[2016-03-01 16:50:55 +0000] [3418] [INFO] Worker spawned (pid: 3418)
+[2016-03-01 16:50:55 +0000] [3422] [INFO] Booting worker with pid: 3422
+[2016-03-01 16:50:55 +0000] [3422] [INFO] Worker spawned (pid: 3422)
+[2016-03-01 16:50:55 +0000] [3435] [INFO] Booting worker with pid: 3435
+[2016-03-01 16:50:55 +0000] [3435] [INFO] Worker spawned (pid: 3435)
+[2016-03-01 16:50:55 +0000] [3436] [INFO] Booting worker with pid: 3436
+[2016-03-01 16:50:55 +0000] [3436] [INFO] Worker spawned (pid: 3436)
+[2016-03-01 16:50:55 +0000] [3446] [INFO] Booting worker with pid: 3446
+[2016-03-01 16:50:55 +0000] [3446] [INFO] Worker spawned (pid: 3446)
+[2016-03-09 22:32:41 +0000] [58285] [INFO] Starting gunicorn 19.3.0
+[2016-03-09 22:32:41 +0000] [58285] [INFO] Listening at: http://127.0.0.1:8081 (58285)
+[2016-03-09 22:32:41 +0000] [58285] [INFO] Using worker: tornado
+[2016-03-09 22:32:41 +0000] [58285] [INFO] Server is ready. Spawning workers
+[2016-03-09 22:32:41 +0000] [58290] [INFO] Booting worker with pid: 58290
+[2016-03-09 22:32:41 +0000] [58290] [INFO] Worker spawned (pid: 58290)
+[2016-03-09 22:32:41 +0000] [58293] [INFO] Booting worker with pid: 58293
+[2016-03-09 22:32:41 +0000] [58293] [INFO] Worker spawned (pid: 58293)
+[2016-03-09 22:32:41 +0000] [58294] [INFO] Booting worker with pid: 58294
+[2016-03-09 22:32:41 +0000] [58294] [INFO] Worker spawned (pid: 58294)
+[2016-03-09 22:32:41 +0000] [58299] [INFO] Booting worker with pid: 58299
+[2016-03-09 22:32:41 +0000] [58299] [INFO] Worker spawned (pid: 58299)
+[2016-03-09 22:32:41 +0000] [58300] [INFO] Booting worker with pid: 58300
+[2016-03-09 22:32:41 +0000] [58300] [INFO] Worker spawned (pid: 58300)
+[2016-03-09 22:32:41 +0000] [58307] [INFO] Booting worker with pid: 58307
+[2016-03-09 22:32:41 +0000] [58307] [INFO] Worker spawned (pid: 58307)
