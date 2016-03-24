@@ -17,9 +17,8 @@ class LibrarySpider(BaseSpider):
         self.response = None
         self.prefix_url = "http://lib.cqu.edu.cn"
 
-        self.prefixUrl = "https://sso.lib.cqu.edu.cn:8949/adlibSso/login"
-        self.firstUrl = "https://sso.lib.cqu.edu.cn:8949/adlibSso/login? \
-                        service=http%3A%2F%2Flib.cqu.edu.cn%2Fmetro%2Flogin.htm"
+        self.prefixUrl = "https://sso.lib.cqu.edu.cn:8949/adlibSso/login?service=http%3A%2F%2Flib.cqu.edu.cn%2Fmetro%2Findex.htm"
+        self.firstUrl = "https://sso.lib.cqu.edu.cn:8949/adlibSso/login?service=http%3A%2F%2Flib.cqu.edu.cn%2Fmetro%2Flogin.htm"
         self.secondUrl = "http://lib.cqu.edu.cn/metro/login.htm"
         self.NowBorrowUrl = "http://lib.cqu.edu.cn/metro/readerNowBorrowInfo.htm"
         self.ReadBookingUrl = "http://lib.cqu.edu.cn/metro/readerBooking.htm"
@@ -218,3 +217,9 @@ class LibrarySpider(BaseSpider):
             t.start()
         for t in threads:
             t.join()
+
+
+if __name__ == '__main__':
+    spider = LibrarySpider(20144483,20144483)
+    spider.post()
+    spider.main()
