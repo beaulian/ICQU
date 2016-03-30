@@ -398,3 +398,195 @@
 [2016-03-09 22:32:41 +0000] [58300] [INFO] Worker spawned (pid: 58300)
 [2016-03-09 22:32:41 +0000] [58307] [INFO] Booting worker with pid: 58307
 [2016-03-09 22:32:41 +0000] [58307] [INFO] Worker spawned (pid: 58307)
+[2016-03-17 22:32:05 +0000] [58285] [CRITICAL] WORKER TIMEOUT (pid:58294)
+[2016-03-17 22:32:05 +0000] [58294] [INFO] worker received SIGABRT signal
+[2016-03-17 22:32:06 +0000] [16616] [INFO] Booting worker with pid: 16616
+[2016-03-17 22:32:06 +0000] [16616] [INFO] Worker spawned (pid: 16616)
+[2016-03-19 17:23:46 +0000] [58285] [INFO] Handling signal: term
+[2016-03-19 17:23:47 +0000] [58307] [INFO] Worker exiting (pid: 58307)
+[2016-03-19 17:23:47 +0000] [58299] [INFO] Worker exiting (pid: 58299)
+[2016-03-19 17:23:47 +0000] [58290] [INFO] Worker exiting (pid: 58290)
+[2016-03-19 17:23:47 +0000] [58300] [INFO] Worker exiting (pid: 58300)
+[2016-03-19 17:23:47 +0000] [16616] [INFO] Worker exiting (pid: 16616)
+[2016-03-19 17:23:47 +0000] [58293] [INFO] Worker exiting (pid: 58293)
+[2016-03-19 17:23:47 +0000] [58285] [INFO] Shutting down: Master
+[2016-03-19 17:31:24 +0000] [3109] [INFO] Starting gunicorn 19.3.0
+[2016-03-19 17:31:24 +0000] [3109] [INFO] Listening at: http://127.0.0.1:8081 (3109)
+[2016-03-19 17:31:24 +0000] [3109] [INFO] Using worker: tornado
+[2016-03-19 17:31:24 +0000] [3109] [INFO] Server is ready. Spawning workers
+[2016-03-19 17:31:24 +0000] [3127] [INFO] Booting worker with pid: 3127
+[2016-03-19 17:31:24 +0000] [3127] [INFO] Worker spawned (pid: 3127)
+[2016-03-19 17:31:24 +0000] [3128] [INFO] Booting worker with pid: 3128
+[2016-03-19 17:31:24 +0000] [3128] [INFO] Worker spawned (pid: 3128)
+[2016-03-19 17:31:24 +0000] [3130] [INFO] Booting worker with pid: 3130
+[2016-03-19 17:31:24 +0000] [3130] [INFO] Worker spawned (pid: 3130)
+[2016-03-19 17:31:24 +0000] [3132] [INFO] Booting worker with pid: 3132
+[2016-03-19 17:31:24 +0000] [3132] [INFO] Worker spawned (pid: 3132)
+[2016-03-19 17:31:24 +0000] [3156] [INFO] Booting worker with pid: 3156
+[2016-03-19 17:31:24 +0000] [3156] [INFO] Worker spawned (pid: 3156)
+[2016-03-19 17:31:24 +0000] [3157] [INFO] Booting worker with pid: 3157
+[2016-03-19 17:31:24 +0000] [3157] [INFO] Worker spawned (pid: 3157)
+[2016-03-19 17:31:43 +0000] [3109] [INFO] Handling signal: term
+[2016-03-19 17:31:44 +0000] [3157] [INFO] Worker exiting (pid: 3157)
+[2016-03-19 17:31:44 +0000] [3128] [INFO] Worker exiting (pid: 3128)
+[2016-03-19 17:31:44 +0000] [3130] [INFO] Worker exiting (pid: 3130)
+[2016-03-19 17:31:44 +0000] [3127] [INFO] Worker exiting (pid: 3127)
+[2016-03-19 17:31:44 +0000] [3156] [INFO] Worker exiting (pid: 3156)
+[2016-03-19 17:31:44 +0000] [3132] [INFO] Worker exiting (pid: 3132)
+[2016-03-19 17:31:44 +0000] [3109] [INFO] Shutting down: Master
+[2016-03-19 17:31:46 +0000] [3245] [INFO] Starting gunicorn 19.3.0
+[2016-03-19 17:31:46 +0000] [3245] [INFO] Listening at: http://127.0.0.1:8081 (3245)
+[2016-03-19 17:31:46 +0000] [3245] [INFO] Using worker: tornado
+[2016-03-19 17:31:46 +0000] [3245] [INFO] Server is ready. Spawning workers
+[2016-03-19 17:31:46 +0000] [3255] [INFO] Booting worker with pid: 3255
+[2016-03-19 17:31:46 +0000] [3255] [INFO] Worker spawned (pid: 3255)
+[2016-03-19 17:31:46 +0000] [3260] [INFO] Booting worker with pid: 3260
+[2016-03-19 17:31:46 +0000] [3260] [INFO] Worker spawned (pid: 3260)
+[2016-03-19 17:31:47 +0000] [3267] [INFO] Booting worker with pid: 3267
+[2016-03-19 17:31:47 +0000] [3267] [INFO] Worker spawned (pid: 3267)
+[2016-03-19 17:31:47 +0000] [3274] [INFO] Booting worker with pid: 3274
+[2016-03-19 17:31:47 +0000] [3274] [INFO] Worker spawned (pid: 3274)
+[2016-03-19 17:31:47 +0000] [3275] [INFO] Booting worker with pid: 3275
+[2016-03-19 17:31:47 +0000] [3275] [INFO] Worker spawned (pid: 3275)
+[2016-03-19 17:31:47 +0000] [3286] [INFO] Booting worker with pid: 3286
+[2016-03-19 17:31:47 +0000] [3286] [INFO] Worker spawned (pid: 3286)
+[2016-03-19 23:11:02 +0000] [3245] [INFO] Handling signal: term
+[2016-03-19 23:11:03 +0000] [3286] [INFO] Worker exiting (pid: 3286)
+[2016-03-19 23:11:03 +0000] [3275] [INFO] Worker exiting (pid: 3275)
+[2016-03-19 23:11:03 +0000] [3274] [INFO] Worker exiting (pid: 3274)
+[2016-03-19 23:11:03 +0000] [3255] [INFO] Worker exiting (pid: 3255)
+[2016-03-19 23:11:03 +0000] [3260] [INFO] Worker exiting (pid: 3260)
+[2016-03-19 23:11:03 +0000] [3267] [INFO] Worker exiting (pid: 3267)
+[2016-03-19 23:11:03 +0000] [3245] [INFO] Shutting down: Master
+[2016-03-19 23:11:05 +0000] [4789] [INFO] Starting gunicorn 19.3.0
+[2016-03-19 23:11:05 +0000] [4789] [INFO] Listening at: http://127.0.0.1:8081 (4789)
+[2016-03-19 23:11:05 +0000] [4789] [INFO] Using worker: tornado
+[2016-03-19 23:11:05 +0000] [4789] [INFO] Server is ready. Spawning workers
+[2016-03-19 23:11:05 +0000] [4803] [INFO] Booting worker with pid: 4803
+[2016-03-19 23:11:05 +0000] [4803] [INFO] Worker spawned (pid: 4803)
+[2016-03-19 23:11:05 +0000] [4805] [INFO] Booting worker with pid: 4805
+[2016-03-19 23:11:05 +0000] [4805] [INFO] Worker spawned (pid: 4805)
+[2016-03-19 23:11:05 +0000] [4816] [INFO] Booting worker with pid: 4816
+[2016-03-19 23:11:05 +0000] [4816] [INFO] Worker spawned (pid: 4816)
+[2016-03-19 23:11:05 +0000] [4826] [INFO] Booting worker with pid: 4826
+[2016-03-19 23:11:05 +0000] [4826] [INFO] Worker spawned (pid: 4826)
+[2016-03-19 23:11:05 +0000] [4827] [INFO] Booting worker with pid: 4827
+[2016-03-19 23:11:05 +0000] [4827] [INFO] Worker spawned (pid: 4827)
+[2016-03-19 23:11:05 +0000] [4843] [INFO] Booting worker with pid: 4843
+[2016-03-19 23:11:05 +0000] [4843] [INFO] Worker spawned (pid: 4843)
+[2016-03-20 00:02:32 +0000] [4789] [INFO] Handling signal: term
+[2016-03-20 00:02:33 +0000] [4816] [INFO] Worker exiting (pid: 4816)
+[2016-03-20 00:02:33 +0000] [4843] [INFO] Worker exiting (pid: 4843)
+[2016-03-20 00:02:33 +0000] [4826] [INFO] Worker exiting (pid: 4826)
+[2016-03-20 00:02:33 +0000] [4803] [INFO] Worker exiting (pid: 4803)
+[2016-03-20 00:02:33 +0000] [4805] [INFO] Worker exiting (pid: 4805)
+[2016-03-20 00:02:33 +0000] [4827] [INFO] Worker exiting (pid: 4827)
+[2016-03-20 00:02:34 +0000] [4789] [INFO] Shutting down: Master
+[2016-03-20 00:03:20 +0000] [6540] [INFO] Starting gunicorn 19.3.0
+[2016-03-20 00:03:20 +0000] [6540] [INFO] Listening at: http://127.0.0.1:8081 (6540)
+[2016-03-20 00:03:20 +0000] [6540] [INFO] Using worker: tornado
+[2016-03-20 00:03:20 +0000] [6540] [INFO] Server is ready. Spawning workers
+[2016-03-20 00:03:20 +0000] [6555] [INFO] Booting worker with pid: 6555
+[2016-03-20 00:03:20 +0000] [6555] [INFO] Worker spawned (pid: 6555)
+[2016-03-20 00:03:20 +0000] [6565] [INFO] Booting worker with pid: 6565
+[2016-03-20 00:03:20 +0000] [6565] [INFO] Worker spawned (pid: 6565)
+[2016-03-20 00:03:20 +0000] [6582] [INFO] Booting worker with pid: 6582
+[2016-03-20 00:03:20 +0000] [6582] [INFO] Worker spawned (pid: 6582)
+[2016-03-20 00:03:21 +0000] [6595] [INFO] Booting worker with pid: 6595
+[2016-03-20 00:03:21 +0000] [6595] [INFO] Worker spawned (pid: 6595)
+[2016-03-20 00:03:21 +0000] [6603] [INFO] Booting worker with pid: 6603
+[2016-03-20 00:03:21 +0000] [6603] [INFO] Worker spawned (pid: 6603)
+[2016-03-20 00:03:21 +0000] [6610] [INFO] Booting worker with pid: 6610
+[2016-03-20 00:03:21 +0000] [6610] [INFO] Worker spawned (pid: 6610)
+[2016-03-22 21:41:00 +0000] [6540] [INFO] Handling signal: term
+[2016-03-22 21:41:02 +0000] [6610] [INFO] Worker exiting (pid: 6610)
+[2016-03-22 21:41:02 +0000] [6603] [INFO] Worker exiting (pid: 6603)
+[2016-03-22 21:41:02 +0000] [6565] [INFO] Worker exiting (pid: 6565)
+[2016-03-22 21:41:02 +0000] [6595] [INFO] Worker exiting (pid: 6595)
+[2016-03-22 21:41:02 +0000] [6555] [INFO] Worker exiting (pid: 6555)
+[2016-03-22 21:41:02 +0000] [6582] [INFO] Worker exiting (pid: 6582)
+[2016-03-22 21:41:02 +0000] [6540] [INFO] Shutting down: Master
+[2016-03-22 21:41:04 +0000] [37364] [INFO] Starting gunicorn 19.3.0
+[2016-03-22 21:41:04 +0000] [37364] [INFO] Listening at: http://127.0.0.1:8081 (37364)
+[2016-03-22 21:41:04 +0000] [37364] [INFO] Using worker: tornado
+[2016-03-22 21:41:04 +0000] [37364] [INFO] Server is ready. Spawning workers
+[2016-03-22 21:41:04 +0000] [37372] [INFO] Booting worker with pid: 37372
+[2016-03-22 21:41:04 +0000] [37372] [INFO] Worker spawned (pid: 37372)
+[2016-03-22 21:41:04 +0000] [37377] [INFO] Booting worker with pid: 37377
+[2016-03-22 21:41:04 +0000] [37377] [INFO] Worker spawned (pid: 37377)
+[2016-03-22 21:41:04 +0000] [37387] [INFO] Booting worker with pid: 37387
+[2016-03-22 21:41:04 +0000] [37387] [INFO] Worker spawned (pid: 37387)
+[2016-03-22 21:41:04 +0000] [37403] [INFO] Booting worker with pid: 37403
+[2016-03-22 21:41:04 +0000] [37403] [INFO] Worker spawned (pid: 37403)
+[2016-03-22 21:41:04 +0000] [37405] [INFO] Booting worker with pid: 37405
+[2016-03-22 21:41:04 +0000] [37405] [INFO] Worker spawned (pid: 37405)
+[2016-03-22 21:41:04 +0000] [37416] [INFO] Booting worker with pid: 37416
+[2016-03-22 21:41:04 +0000] [37416] [INFO] Worker spawned (pid: 37416)
+[2016-03-22 21:44:12 +0000] [37364] [INFO] Handling signal: term
+[2016-03-22 21:44:13 +0000] [37387] [INFO] Worker exiting (pid: 37387)
+[2016-03-22 21:44:13 +0000] [37403] [INFO] Worker exiting (pid: 37403)
+[2016-03-22 21:44:13 +0000] [37372] [INFO] Worker exiting (pid: 37372)
+[2016-03-22 21:44:13 +0000] [37416] [INFO] Worker exiting (pid: 37416)
+[2016-03-22 21:44:13 +0000] [37405] [INFO] Worker exiting (pid: 37405)
+[2016-03-22 21:44:13 +0000] [37377] [INFO] Worker exiting (pid: 37377)
+[2016-03-22 21:44:13 +0000] [37364] [INFO] Shutting down: Master
+[2016-03-22 21:44:17 +0000] [37450] [INFO] Starting gunicorn 19.3.0
+[2016-03-22 21:44:17 +0000] [37450] [INFO] Listening at: http://127.0.0.1:8081 (37450)
+[2016-03-22 21:44:17 +0000] [37450] [INFO] Using worker: tornado
+[2016-03-22 21:44:17 +0000] [37450] [INFO] Server is ready. Spawning workers
+[2016-03-22 21:44:17 +0000] [37461] [INFO] Booting worker with pid: 37461
+[2016-03-22 21:44:17 +0000] [37461] [INFO] Worker spawned (pid: 37461)
+[2016-03-22 21:44:17 +0000] [37467] [INFO] Booting worker with pid: 37467
+[2016-03-22 21:44:17 +0000] [37467] [INFO] Worker spawned (pid: 37467)
+[2016-03-22 21:44:17 +0000] [37471] [INFO] Booting worker with pid: 37471
+[2016-03-22 21:44:17 +0000] [37471] [INFO] Worker spawned (pid: 37471)
+[2016-03-22 21:44:17 +0000] [37486] [INFO] Booting worker with pid: 37486
+[2016-03-22 21:44:17 +0000] [37486] [INFO] Worker spawned (pid: 37486)
+[2016-03-22 21:44:17 +0000] [37491] [INFO] Booting worker with pid: 37491
+[2016-03-22 21:44:17 +0000] [37491] [INFO] Worker spawned (pid: 37491)
+[2016-03-22 21:44:17 +0000] [37498] [INFO] Booting worker with pid: 37498
+[2016-03-22 21:44:17 +0000] [37498] [INFO] Worker spawned (pid: 37498)
+[2016-03-24 22:50:41 +0000] [37450] [INFO] Handling signal: term
+[2016-03-24 22:50:42 +0000] [37486] [INFO] Worker exiting (pid: 37486)
+[2016-03-24 22:50:42 +0000] [37467] [INFO] Worker exiting (pid: 37467)
+[2016-03-24 22:50:42 +0000] [37491] [INFO] Worker exiting (pid: 37491)
+[2016-03-24 22:50:42 +0000] [37461] [INFO] Worker exiting (pid: 37461)
+[2016-03-24 22:50:42 +0000] [37471] [INFO] Worker exiting (pid: 37471)
+[2016-03-24 22:50:42 +0000] [37498] [INFO] Worker exiting (pid: 37498)
+[2016-03-24 22:50:42 +0000] [37450] [INFO] Shutting down: Master
+[2016-03-24 22:51:56 +0000] [51312] [INFO] Starting gunicorn 19.3.0
+[2016-03-24 22:51:56 +0000] [51312] [INFO] Listening at: http://127.0.0.1:8081 (51312)
+[2016-03-24 22:51:56 +0000] [51312] [INFO] Using worker: tornado
+[2016-03-24 22:51:56 +0000] [51312] [INFO] Server is ready. Spawning workers
+[2016-03-24 22:51:56 +0000] [51317] [INFO] Booting worker with pid: 51317
+[2016-03-24 22:51:56 +0000] [51317] [INFO] Worker spawned (pid: 51317)
+[2016-03-24 22:51:56 +0000] [51318] [INFO] Booting worker with pid: 51318
+[2016-03-24 22:51:56 +0000] [51318] [INFO] Worker spawned (pid: 51318)
+[2016-03-24 22:51:56 +0000] [51319] [INFO] Booting worker with pid: 51319
+[2016-03-24 22:51:56 +0000] [51319] [INFO] Worker spawned (pid: 51319)
+[2016-03-24 22:51:56 +0000] [51326] [INFO] Booting worker with pid: 51326
+[2016-03-24 22:51:56 +0000] [51326] [INFO] Worker spawned (pid: 51326)
+[2016-03-24 22:51:56 +0000] [51329] [INFO] Booting worker with pid: 51329
+[2016-03-24 22:51:56 +0000] [51329] [INFO] Worker spawned (pid: 51329)
+[2016-03-24 22:51:56 +0000] [51330] [INFO] Booting worker with pid: 51330
+[2016-03-24 22:51:56 +0000] [51330] [INFO] Worker spawned (pid: 51330)
+[2016-03-24 22:52:04 +0000] [51330] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51319] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51326] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51329] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51318] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51317] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51312] [INFO] Handling signal: int
+[2016-03-24 22:52:04 +0000] [51329] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51319] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51326] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51330] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51318] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:04 +0000] [51317] [INFO] worker received INT or QUIT signal
+[2016-03-24 22:52:05 +0000] [51330] [INFO] Worker exiting (pid: 51330)
+[2016-03-24 22:52:05 +0000] [51319] [INFO] Worker exiting (pid: 51319)
+[2016-03-24 22:52:05 +0000] [51326] [INFO] Worker exiting (pid: 51326)
+[2016-03-24 22:52:05 +0000] [51329] [INFO] Worker exiting (pid: 51329)
+[2016-03-24 22:52:05 +0000] [51318] [INFO] Worker exiting (pid: 51318)
+[2016-03-24 22:52:05 +0000] [51317] [INFO] Worker exiting (pid: 51317)
+[2016-03-24 22:52:05 +0000] [51312] [INFO] Shutting down: Master
