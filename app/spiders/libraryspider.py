@@ -217,3 +217,9 @@ class LibrarySpider(BaseSpider):
             t.start()
         for t in threads:
             t.join()
+
+
+if __name__ == '__main__':
+    spider = LibrarySpider(20144483,20144483)
+    spider.post()
+    spider.main()

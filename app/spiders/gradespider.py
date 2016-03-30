@@ -52,6 +52,7 @@ class GradeSpider(BaseSpider):
             return
         self.grade_info["学年学期"] = td[0].text
         count = len(td)/11
+        # print count
         self.grade_info["课程总数"] = count
         if count == 0:
             self.flag = False
@@ -60,7 +61,15 @@ class GradeSpider(BaseSpider):
         for i in range(len(td)):
             if i % 10 == 1:
                 self.grade_info["课程名称"].append(td[i].text)
+<<<<<<< HEAD
             elif i % 10 == 2:
                 self.grade_info["学分"].append(td[i].text)
             elif i % 10 == 6:
                 self.grade_info["成绩"].append(td[i].text)
+=======
+                # print td[i].text
+            elif i % 10 == 2:
+                self.grade_info["学分"].append(td[i].text)
+            elif i % 10 == 6:
+                self.grade_info["成绩"].append(td[i].text)
+>>>>>>> master
