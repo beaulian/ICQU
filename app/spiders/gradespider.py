@@ -61,15 +61,7 @@ class GradeSpider(BaseSpider):
         for i in range(len(td)):
             if i % 10 == 1:
                 self.grade_info["课程名称"].append(td[i].text)
-<<<<<<< HEAD
             elif i % 10 == 2:
                 self.grade_info["学分"].append(td[i].text)
             elif i % 10 == 6:
                 self.grade_info["成绩"].append(td[i].text)
-=======
-                # print td[i].text
-            elif i % 10 == 2:
-                self.grade_info["学分"].append(td[i].text)
-            elif i % 10 == 6:
-                self.grade_info["成绩"].append(td[i].text)
->>>>>>> master
