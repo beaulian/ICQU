@@ -2,7 +2,7 @@ BeautifulSoup==3.2.1
 Flask==0.10.1
 Flask-Script==2.0.5
 Glances==1.7.3
-Jinja2==2.8
+Jinja2==2.11.3
 MarkupSafe==0.23
 PAM==0.4.2
 Pillow==2.3.0
