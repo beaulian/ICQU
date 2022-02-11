@@ -7,7 +7,7 @@ MarkupSafe==0.23
 PAM==0.4.2
 Pillow==2.3.0
 Scrapy==1.0.3
-Twisted==15.4.0
+Twisted==22.1.0
 Twisted-Core==13.2.0
 Twisted-Web==13.2.0
 Werkzeug==0.11.2
