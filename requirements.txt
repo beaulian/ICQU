@@ -50,7 +50,7 @@ pyxdg==0.25
 queuelib==1.4.2
 redis==2.10.5
 reportlab==3.0
-requests==2.2.1
+requests==2.20.0
 service-identity==14.0.0
 sessioninstaller==0.0.0
 singledispatch==3.4.0.3
